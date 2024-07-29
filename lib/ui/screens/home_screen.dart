@@ -7,7 +7,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import '../../cubit/qr_cubit.dart';
 import '../widgets/text_widget.dart';
 import 'generate_screen.dart';

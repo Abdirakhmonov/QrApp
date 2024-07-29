@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:musobaqa/ui/onboarding/splash_screen.dart';
 import 'package:musobaqa/ui/screens/home_screen.dart';
 
 import 'cubit/qr_cubit.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark()
             .copyWith(scaffoldBackgroundColor: const Color(0xff333333)),
         debugShowCheckedModeBanner: false,
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
